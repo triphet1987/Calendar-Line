@@ -1,8 +1,8 @@
 function myFunction() {
   
   const WEEKDAY = ["อาทิตย์.", "จันทร์", "อังคาร", "พุธ", "พฤหัสบดี", "ศุกร์", "เสาร์"];
-  const calendar = CalendarApp.getCalendarById("c_73a75e9706ed7ab98fb3b50991e2bbef1d735653435ba4ab995c7c6db26a6801@group.calendar.google.com");
-  const token = "LbPX6YHkG8jDSokkuYHp3vMP057kk9rPzMX1wfCFQuH"; // Line Token 
+  const calendar = CalendarApp.getCalendarById("");
+  const token = ""; // Line Token 
   var url = "https://notify-api.line.me/api/notify";
   
   let nowDtime = new Date();
